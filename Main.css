@@ -1,0 +1,132 @@
+/* Basic reset and body styling */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1d2b64, #f8cdda); /* Cool gradient */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* Header styling */
+.site-header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #f8cdda;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling the about-me section */
+.about-me {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px); /* Blurred background effect */
+    margin-bottom: 20px;
+}
+
+.about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+strong {
+    color: #f8cdda;
+}
+
+em {
+    font-style: italic;
+    color: #ffd700;
+}
+
+/* Styling the projects and contact sections */
+.projects, .contact {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px); /* Blurred background effect */
+    margin-bottom: 20px;
+}
+
+.projects h2, .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.projects p, .contact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+/* Footer styling */
+.site-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+/* Social media icons styling */
+.social-icons a {
+    margin: 0 10px;
+    color: #f8cdda;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ffd700;
+}
